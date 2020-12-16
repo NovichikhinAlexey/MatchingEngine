@@ -4,6 +4,7 @@ package com.swisschain.grpc.messages.incoming;
 
 option java_package = "com.swisschain.matching.engine.messages.incoming";
 option java_outer_classname = "IncomingMessages";
+option csharp_namespace = "Antares.ME.Contracts.IncomingMessages";
 
 import "google/protobuf/wrappers.proto";
 import "google/protobuf/timestamp.proto";
